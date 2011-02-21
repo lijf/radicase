@@ -3,7 +3,9 @@ Radicase::Application.routes.draw do
 
   get "pages/contact"
 
-  get "pages/about"
+  get "pages/license"
+
+  get "pages/readme"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
