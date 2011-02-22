@@ -6,6 +6,7 @@ gem 'gravatar_image_tag', '0.1.0'
 gem 'will_paginate', '3.0.pre2'
 gem 'bluecloth', '2.0.11'
 gem 'haml', '3.0.25'
+gem 'compass', '>=0.10.6'
 
 group :development do
 	gem 'rspec-rails', '2.0.1'
