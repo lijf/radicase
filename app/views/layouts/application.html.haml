@@ -13,14 +13,12 @@
   %body
     .container
       %header
-        =image_tag("logo.png", :alt => "RaDiCase", :class => "round")
         %nav.round
-          %ul
-            %li 
-              =link_to "Home", '#'
-            %li 
-              =link_to "Help", '#'
-            %li 
-              =link_to "Sign In", '#'
+          =link_to "Home", '#' 
+          =link_to "Help", '#'
+          =link_to "Sign In", '#'
       %section.round
         =yield
+      %footer
+        =image_tag("logo.png", :id => "small_logo", :alt => "RaDiCase", :class => "round")
+
