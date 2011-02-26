@@ -1,6 +1,51 @@
+$visited_color: #0C0
+$link_color: #0CF
+
 .container
-  width: 960px
-#biglogo
   width: 710px
+  margin-left: auto
+  margin-right: auto
+  background: #222
+body
+  background: #000
+a
+  color: $link_color
+  &:vistited
+    color: $visited_color
+nav
+  float: right
+  background-color: white
+  padding: 0 0.7em
+  white-space: nowrap
+
+  ul
+    margin: 0
+    padding: 0
+
+    li
+      list-style-type:none
+      display: inline-block
+      padding: 0.2em 0
+
+      a
+        padding: 0 5px
+        font-weight: bold
+        &:visited
+          color: $visited_color
+        &:hover
+          text-decoration: underline
+footer
+  text-align: center
+  margin-top: 10px
+  margin-left: auto
+  margin-right: auto
+  nav
+    float: none
+#biglogo
+  width: 630px
+  display: block
+  margin-left: auto
+  margin-right: auto
 #small_logo
   height: 18px
+

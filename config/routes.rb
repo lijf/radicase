@@ -1,12 +1,9 @@
 Radicase::Application.routes.draw do
-  get "pages/home"
+  match '/contact', :to => 'pages#contact'
+  match '/about', :to => 'pages#about'
+  match '/help', :to => 'pages#help'
 
-  get "pages/contact"
-
-  get "pages/license"
-
-  get "pages/readme"
-
+  root :to => 'pages#home'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
