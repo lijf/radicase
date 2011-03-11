@@ -8,6 +8,10 @@ class PagesController < ApplicationController
   end
 
   def readme
+    @title = "README"
+  end
+
+  def about
     @title = "About"
   end
 
