@@ -7,13 +7,17 @@ class PagesController < ApplicationController
     @title = "Contact"
   end
 
-  def about 
+  def readme
     @title = "About"
   end
 
-  def readme
-    @title = "README"
+  def license
+    @title = "License"
   end
+
+  def collection
+    @title = "Collection"
+  end    
 
   def help
     @title = "Help"
